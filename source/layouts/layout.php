@@ -9,23 +9,23 @@
         <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <title><?= $title; ?></title>
-        <link href="/source/stylesheets/screen.css" rel="stylesheet" type="text/css" media="screen" />
-        <link href="/source/stylesheets/print.css" rel="stylesheet" type="text/css" media="print" />
+        <link href="./stylesheets/screen.css" rel="stylesheet" type="text/css" media="screen" />
+        <link href="./stylesheets/print.css" rel="stylesheet" type="text/css" media="print" />
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        <script src="/source/javascripts/lib/_jquery_ui.js" type="text/javascript"></script>
+        <script src="./javascripts/lib/_jquery_ui.js" type="text/javascript"></script>
 
-        <script src="/source/javascripts/lib/_jquery.highlight.js" type="text/javascript"></script>
-        <script src="/source/javascripts/lib/_lunr.js" type="text/javascript"></script>
-        <script src="/source/javascripts/app/_search.js" type="text/javascript"></script>
+        <script src="./javascripts/lib/_jquery.highlight.js" type="text/javascript"></script>
+        <script src="./javascripts/lib/_lunr.js" type="text/javascript"></script>
+        <script src="./javascripts/app/_search.js" type="text/javascript"></script>
 
-        <script src="/source/javascripts/lib/_jquery.tocify.js" type="text/javascript"></script>
-        <script src="/source/javascripts/lib/_imagesloaded.min.js" type="text/javascript"></script>
-        <script src="/source/javascripts/app/_lang.js" type="text/javascript"></script>
-        <link rel="stylesheet" href="/source/stylesheets/prism.css">
-        <link rel="stylesheet" href="/source/stylesheets/prism_overrides.css">
-        <script src="/source/javascripts/lib/prism.js"></script>
+        <script src="./javascripts/lib/_jquery.tocify.js" type="text/javascript"></script>
+        <script src="./javascripts/lib/_imagesloaded.min.js" type="text/javascript"></script>
+        <script src="./javascripts/app/_lang.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="./stylesheets/prism.css">
+        <link rel="stylesheet" href="./stylesheets/prism_overrides.css">
+        <script src="./javascripts/lib/prism.js"></script>
 
-        <script src="/source/javascripts/app/_toc.js" type="text/javascript"></script>
+        <script src="./javascripts/app/_toc.js" type="text/javascript"></script>
         <script>
             $(function() {
                 // Code blocks
@@ -56,7 +56,7 @@
 
     <body class="index">
         <div class="tocify-wrapper">
-            <img src="/source/images/logo.png">
+            <img src="./images/logo.png">
             <?php if ($config->language_tabs): ?>
                 <div class="lang-selector">
                     <?php foreach($config->language_tabs as $lang): ?>
