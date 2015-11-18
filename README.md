@@ -1,6 +1,15 @@
 SlatePHP
 ========
 
+Origin
+------------------------------
+
+SlatePHP is a port of the [tripit/slate](https://github.com/tripit/slate/) project. Why did I create this project?
+
+1. I had some issues getting Middleman running and building the documentation on some of the hardware I had access to
+2. Not everyone can or wants to install ruby. Ruby can be a tad hard to setup for some but PHP is quite the opposite.
+
+
 Getting Started with SlatePHP
 ------------------------------
 
