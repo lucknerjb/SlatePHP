@@ -1,0 +1,12 @@
+{
+    "name": "lucknerjb/slate-php",
+    "authors": [
+        {
+            "name": "Luckner Jr. Jean-Baptiste",
+            "email": "lucknerjb@gmail.com"
+        }
+    ],
+    "require": {
+        "erusev/parsedown": "^1.6"
+    }
+}

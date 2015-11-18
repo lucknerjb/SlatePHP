@@ -1,0 +1,33 @@
+.token.operator, .token.entity, .token.url, .language-css .token.string, .style .token.string {
+    color: inherit;
+    background: none;
+}
+
+code[class*="language-"], pre[class*="language-"] {
+    color: #FFF;
+    text-shadow: none !important;
+}
+
+:not(pre) > code[class*="language-"], pre[class*="language-"] {
+    background-color: #292929;
+}
+
+pre[class*="language-"] {
+    padding: 2em 28px;
+    margin: 0;
+    overflow: auto;
+}
+
+:not(pre) > code.language-none, pre[class*="language-none"] {
+    color: #333;
+    background-color: rgba(0,0,0,0.05);
+    padding: 3px;
+    border-radius: 3px;
+    font-family: Consolas, Menlo, Monaco, "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace, serif;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.content code {
+    word-break: break-word;
+}
